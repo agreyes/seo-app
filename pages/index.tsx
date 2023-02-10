@@ -49,7 +49,7 @@ export default function Home() {
             title={title}
             description={description}
             demo={
-              title === "Beautiful, reusable components" ? (
+              title === "" ? (
                 <ComponentGrid />
               ) : (
                 demo
@@ -65,7 +65,7 @@ export default function Home() {
 
 const features = [
   {
-    title: "Beautiful, reusable components",
+    title: "",
     description: "",
     large: true,
   },
